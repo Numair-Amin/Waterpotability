@@ -80,7 +80,10 @@ st.markdown(
         width: 220px;
         z-index: 999;
     }
-
+    .stAlert p {
+        color: black !important;
+        font-weight: bold;
+    }
     /* Button */
     .stButton button {
         font-size:18px;
@@ -156,7 +159,7 @@ with col_left:
         """
         <div class="info-box">
             <h3>Created by Numair Amin</h3>
-            <p>⚡ Model Accuracy: 82%</p>
+            <p>⚡ Model Accuracy: 67.3%</p>
             <p>🧠 Algorithm: Random Forest</p>
             <p>⚖️ Balancing: SMOTE</p>
         </div>
