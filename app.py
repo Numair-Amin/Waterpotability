@@ -201,4 +201,4 @@ if st.button("🔍 Check Potability", use_container_width=True):
     if prediction == 1:
         st.success("✅ The water is **Potable (Safe to Drink).**")
     else:
-        st.error("❌ The water is **Not Potable (Unsafe to Drink).**")
+        st.error("⚠️The water is **Not Potable (Unsafe to Drink).**")
