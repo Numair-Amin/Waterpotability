@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
-
+# new changes by nabeel arshad
 # Load trained model
 model = joblib.load("water_potability_model.pkl")
 
